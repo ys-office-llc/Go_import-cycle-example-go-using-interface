@@ -1,4 +1,4 @@
-# Go Interface
+# Go import cycle example go using interface
 
 ## Interface
 Interfaces are considered separately from implementation and use.  
@@ -33,6 +33,9 @@ func (d *Dog) GetDog() string {
 note : In the GetDog function, the GetCat function is called, but the result is "Bow Wow !". 
 
 ## Output Sample
-/Go_Interface $ go build  
-/Go_Interface $ ./Go_Interface   
+```shell
+go run main.go
+```
+```text   
 Bow Wow !  
+```
