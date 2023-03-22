@@ -39,3 +39,6 @@ go run main.go
 ```text   
 Bow Wow !  
 ```
+
+# Ref
+- [Import Cycles in Golang: How To Deal With Them](https://jogendra.dev/import-cycles-in-golang-and-how-to-deal-with-them)
