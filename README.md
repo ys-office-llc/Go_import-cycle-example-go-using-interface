@@ -14,13 +14,19 @@ Therefore, an interface may be used to separate the package from circular refere
 ![image](https://user-images.githubusercontent.com/31363256/226831471-66451d96-7fcd-44e1-a429-253df5d3c408.png)
 
 ## Structure
-dog/  
-&ensp;&ensp;Dog.go  
-&ensp;&ensp;DogLoar.go  
-cat/  
-&ensp;&ensp;Cat.go  
-&ensp;&ensp;DogInterface.go  
-main.go  
+
+```text
+.
+├── README.md
+├── cat
+│   ├── Cat.go
+│   └── DogInterface.go
+├── dog
+│   ├── Dog.go
+│   └── DogLoar.go
+├── go.mod
+└── main.go
+```
 
 ## Point
 Dog.go  
@@ -29,7 +35,7 @@ Dog.go
 func (d *Dog) GetDog() string {
 	cat := cat.Cat{DogIF: NewDogRoar()}
 	// cat.Cat.GetCat.c.DogIF.GetDogRoar()
-	return cat.GetCat2()
+	return cat.GetCat()
 }
 ```
 note : In the GetDog function, the GetCat function is called, but the result is "Bow Wow !". 
