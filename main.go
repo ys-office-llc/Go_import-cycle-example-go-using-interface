@@ -8,6 +8,6 @@ import (
 
 func main() {
 	dog := dog.NewDog()
-	// GetDog ->
+	// dog.GetDog() -> cat.Cat -> DogIF -> DogInterface -> GetDogRoar() -> dog.GetDogRoar() -> "Bow Wow !"
 	fmt.Println(dog.GetDog()) // Bow Wow !
 }
