@@ -1,4 +1,4 @@
-# Go import cycle example go using interface
+# Go import cycle example using interface
 
 ## Interface
 Interfaces are considered separately from implementation and use.  
