@@ -1,9 +1,13 @@
 package cat
 
 type Cat struct {
-	CatObj DogInterface
+	DogIF DogInterface
 }
 
 func (c *Cat) GetCat() string {
-	return c.CatObj.GetDogRoar()
+	return c.DogIF.GetDogRoar()
+}
+
+func (c Cat) GetCat2() string {
+	return c.DogIF.GetDogRoar2()
 }
