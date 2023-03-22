@@ -10,6 +10,6 @@ func NewDog() *Dog {
 
 func (d *Dog) GetDog() string {
 	cat := cat.Cat{DogIF: NewDogRoar()}
-	// GetCat -> DogInterface -> GetDogRoar
+	// cat.Cat.GetCat.c.DogIF.GetDogRoar()
 	return cat.GetCat2()
 }

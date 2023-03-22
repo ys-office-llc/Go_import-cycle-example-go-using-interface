@@ -24,11 +24,11 @@ main.go
 Dog.go  
  
 ```Go
-func (d *Dog) GetDog() string {  
-  cat := &cat.Cat{ CatObj: NewDogRoar() }  
-  // GetCat -> DogInterface -> GetDogRoar
-  return cat.GetCat()   
-} 
+func (d *Dog) GetDog() string {
+	cat := cat.Cat{DogIF: NewDogRoar()}
+	// cat.Cat.GetCat.c.DogIF.GetDogRoar()
+	return cat.GetCat2()
+}
 ```
 note : In the GetDog function, the GetCat function is called, but the result is "Bow Wow !". 
 
