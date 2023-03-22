@@ -40,6 +40,10 @@ func (d *Dog) GetDog() string {
 ```
 note : In the GetDog function, the GetCat function is called, but the result is "Bow Wow !". 
 
+## Code View
+
+![image](https://user-images.githubusercontent.com/31363256/226886628-b01f0425-499c-4f74-a4bb-121bf9fed80f.png)
+
 ## Output Sample
 ```shell
 go run main.go
